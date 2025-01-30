@@ -402,6 +402,34 @@ body.contact-page {
     }
   }
 
+  .inputGroup select {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid var(--dark_accent4);
+    border-radius: 5px;
+    background: var(--background);
+    color: var(--dark);
+    outline: none;
+    appearance: none; /* ซ่อนลูกศร default */
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .inputGroup select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 5px var(--primary);
+  }
+  
+  .inputGroup select:hover {
+    background: var(--dark_accent2);
+  }
+  
+  .inputGroup option {
+    background: var(--background);
+    color: var(--dark);
+  }
+  
   
 .hero {
   text-align: center;

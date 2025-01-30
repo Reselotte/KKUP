@@ -106,9 +106,16 @@
             </div>
   
             <div class="inputGroup fullWidth">
-              <input type="text" name="" required="required">
-              <label>Subject</label>
+              <label for="subject"></label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>-- Select a Subject --</option>
+                <option value="general">Registration Activity</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
             </div>
+            
+          
   
             <div class="inputGroup fullWidth">
               <textarea required="required"></textarea>
