@@ -270,3 +270,88 @@ h2 {
   opacity: 0.7;
 }
 
+/* responsive haiyaa */
+
+@media (max-width: 1024px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .right-side, .left-side {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .right-side li a, .left-side li a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .activity-title {
+    font-size: 2.5rem;
+  }
+
+  .activity-box {
+    width: min(80vw, 280px);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 1rem;
+  }
+
+  .activity-title {
+    font-size: 2rem;
+  }
+
+  .activity-box {
+    width: min(90vw, 250px);
+  }
+
+  .activity-box p {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-container {
+    padding: 0.8rem;
+  }
+
+  .right-side, .left-side {
+    gap: 0.8rem;
+  }
+
+  .right-side li a, .left-side li a {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .activity-title {
+    font-size: 1.8rem;
+  }
+
+  .activity-box {
+    width: 95vw;
+  }
+
+  .activity-box p {
+    font-size: 1rem;
+  }
+
+  .login-but {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
